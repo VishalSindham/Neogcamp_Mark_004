@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+:root{
+    --primary-color : #e88032;
+    --dark-gray: #64748b;
+    --off-white: #e2e8f0;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+}
+
+hr{
+    margin: 2rem 0rem;
+}
+
+/** container**/
+
+.container{
+   padding: 0rem 1rem;
+}
+
+.container-center{
+    max-width: 600px;
+    margin: auto;
+}
+
+/**links**/
+
+.link{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.link-primary{
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+    margin: 1rem auto;
+}
+
+.link-secondary{
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+}
+
+/**Lists**/
+
+.list-non-bullet{
+    list-style: none;
+    padding-left: 0px;
+}
+
+.list-item-inline{
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+.article-list{
+    padding: 2rem;
+    text-align: center;
+    margin: 3rem auto;
+}
+
+.article-list p{
+    padding-bottom: 1rem;
+}
+
+.project-list{
+    padding: 2rem;
+    text-align: center;
+    margin: 3rem auto;
+}
+
+.project-list p{
+    padding-bottom: 2rem;
+}
+
+/**navigation**/
+
+.navigation{
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.navigation .link{
+        color :white;
+}
+
+.navigation .nav-brand{
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.navigation .nav-pills{
+    text-align: right;
+}
+
+.navigation .link-active{
+    font-weight: bold;
+}
+
+/**header**/
+
+.hero{
+    padding: 2rem;
+    padding-top: 5rem;
+}
+
+.hero .hero-image{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-heading{
+    padding-top: 1rem;
+    color: var(--dark-gray);
+    text-align: center;
+}
+
+/**sections**/
+
+.section{
+    padding: 2rem;
+}
+
+.section h1{
+    text-align: center;
+}
+
+.ow{
+    background-color: var(--off-white);
+}
+
+/**footer**/
+
+.footer{
+    background-color: var(--primary-color);
+    padding: 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+}
+
+.footer .link{
+    color: white;
+}
+
+.footer-header{
+    font-size: large;
+    font-weight: bold;
+}
+
+.social-links{
+    padding-inline-start: 0px;
+}
